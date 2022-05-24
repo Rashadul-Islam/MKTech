@@ -1,0 +1,64 @@
+.two-content-div{
+    width: 90%;
+    height: 500px;
+    border:2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
+    url('../../images/bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.two-content-left{
+    width: 80%;
+    height: 100%;
+   
+}
+.two-progress-area{
+    margin-top: 150px;
+    width: 1200px;
+}
+.two-content-right{
+    width: 20%;
+    height: 100%;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-items: center;
+    width: 650px;
+    height: 250px;
+    margin-left: 80px;
+    padding-left: 5%;
+    margin-top: 60px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.item p{
+    color: rgb(255, 72, 0);
+}
+.item img{
+    margin-top: 10px;
+    height: 30px;
+    width: 50px;
+}
+.two-progress-area{
+    margin-top: 50px;
+}
+.learn-button{
+    margin-left: 130px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(255, 136, 0);
+}

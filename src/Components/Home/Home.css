@@ -1,0 +1,65 @@
+.page-body{
+    /* display: flex;
+    justify-content: center; */
+    height: 100vh;
+}
+.page-head{
+    color: navy;
+    font-size: 50px;
+    font-weight: 800;
+    text-align: center;
+}
+.content-div{
+    width: 90%;
+    height: 500px;
+    border:2px solid gray;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.content-left{
+    width: 80%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+.content-right{
+    width: 20%;
+    height: 100%;
+    background-color: navy;
+}
+.logo{
+    border: 2px solid gray;
+    height: 30px;
+    width:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg);
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.logo-text{
+    transform: rotate(-45deg);
+    font-size: 15px;
+    font-weight: 800;
+}
+.tag-line{
+    margin-left: 30px;
+    margin-top: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    color: navy;
+}
+.tag-highlight{
+    color: rgb(255, 94, 0);
+    font-size: 40px;
+}
+.learn-text{
+    margin-left: 30px;
+}
+.right-arrow{
+    color:navy;
+}
+.progress-area{
+    margin-top: 150px;
+}
